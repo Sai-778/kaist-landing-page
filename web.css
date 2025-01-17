@@ -1,0 +1,209 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+body{
+    background-color: #06080c;
+}
+h1{
+    font: bold;
+    font-size: 58px;
+}
+.a0{
+    font-size: 24px;
+    color: #A0A0A0;
+}
+/* styles for list elements */
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem 6.25rem;
+    background-color: black;
+} 
+
+.head{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+
+
+.login,.signup{
+    padding: .5rem 2rem;
+}
+
+
+.signup:hover{
+    border: 2px solid #3577F5;
+    border-radius: 0.5rem;
+    transition: 0.5s ease-in-out;
+}
+.login:hover{
+    border: 2px solid #3577F5;
+    border-radius: 0.5rem;
+    transition: 0.5s ease-in-out;
+}
+.herosection{
+
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 2rem 25rem;
+    text-align: center;
+   
+    color: #FFFFFF;
+}
+.applinks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    gap: 1rem;
+ 
+}
+
+.playstore,.appstore,.buynow{
+    display: flex;
+    padding: 0.5rem 1rem;
+    background-color: #3577F5;
+    border-radius: 6px;
+    align-items: center;
+    justify-content: center;
+}
+.appstore img{
+    height: 25px;
+    width: 25px;
+}
+
+.scroll{
+    display: block;
+    margin: 0 auto;
+    padding-top:5em ;
+}
+.corefeatures img{
+    /* height: 100vh; */
+     /* background-color: #990d0d; */
+    padding: 3rem;
+    align-items: center;
+    /* justify-content: center; */
+  }
+.core{
+    display: flex;
+    margin: 0 11rem;
+    padding:0  17em;
+    flex-wrap: wrap;
+    
+
+}
+h2{
+    font-size: 32px;
+    font:bold;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 5rem;
+}
+.coreelements{
+    text-align: center;
+    color: #ffffff;
+    /* padding: 1rem; */
+    width: 196px;
+    font: 20px;
+}
+
+.h3heading{
+    font:bold;
+    color: #ffffff;
+    padding-bottom: 1rem;
+    font-size: 24px;
+}
+.bootinfo{
+    color: #FFFFFF;
+    padding:1rem 6.25rem;
+    max-width: 50rem;
+    font-size: 24px;
+    
+}
+.boot{
+    display: flex;
+    padding:1rem 6.25rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.link{
+    color: #3577F5;
+    padding-top: 2rem; 
+    display: block;
+}
+.cources{
+    margin: 0 11.6rem;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    /* padding:1rem; */
+    
+}
+.blocks{
+
+background-color: #121212;
+align-items: center;
+justify-content: center;
+font-size: 16px;
+}
+
+.blockstext{
+    font: bold;
+    font-size: 22px;
+}
+.price{
+    font-size: 20px;
+}
+
+.viewmore{
+   color: #ffffff;
+   font-size: 18px;
+   font: bold;
+   text-align: center;
+   display: block;
+   max-width: 13rem;
+   padding: 1rem;
+   margin: 5rem auto 0rem;
+
+}
+.viewmore:hover{
+    border: 2px solid #3577F5;
+    border-radius: 0.5rem;
+    transition: 0.5s ease-in-out;
+    
+}
+
+.benifits{
+    color: #ffffff;
+    margin: 6.25px;
+    padding: 0 10rem;
+}
+
+.benone,.bentwo,.benthree{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    
+    
+}
+.benwid{
+    max-width: 31rem;
+}
