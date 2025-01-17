@@ -97,17 +97,22 @@ a{
 .corefeatures img{
     /* height: 100vh; */
      /* background-color: #990d0d; */
-    padding: 3rem;
-    align-items: center;
-    /* justify-content: center; */
+    padding: 3.5rem;
+    text-align: center;
   }
 .core{
     display: flex;
     margin: 0 11rem;
-    padding:0  17em;
+    padding:0  24rem;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     
 
+}
+.bold{
+    display: block;
+    padding-bottom:0.8rem ;
 }
 h2{
     font-size: 32px;
@@ -206,4 +211,113 @@ font-size: 16px;
 }
 .benwid{
     max-width: 31rem;
+}
+.more1{
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-left:148px;
+    margin-right: 148px;
+    margin-bottom:  150px;
+    padding: auto;
+
+}
+.moreone,.moretwo,.morethree{
+    padding: 1px;
+}
+.more2{
+    color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto  156px;
+    gap:0;
+}
+.divbaground{
+background-color: #121212;
+}
+.morebolt{
+    font: bold;
+    font-size: 36px;
+    margin-left: 58px;
+    margin-top: 104px;
+    margin-right: 156px;
+}
+.morepara{
+    font-size: 12px;
+    width: 311px;
+    margin-left: 58px;
+    padding-bottom: 20px;
+    padding-top: 5px;
+   
+}
+.morediv{
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 311px;
+    height: 57px;
+    border-radius: 6px;
+    margin-left: 58px;
+}
+.moretext{
+    color: #A0A0A0;
+    padding: 16px;
+
+}
+.baground{
+    background-color: #3577F5;
+    width: 45px;
+    height: 45px;
+    margin: 6px;
+    border-radius: 4px;
+}
+.moreicon{
+    padding: 8.5px;
+    
+}
+
+.footer{
+    background-color: #3577F5;
+}
+.end{
+  
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-top: 100px;
+    /* padding-bottom:77px ; */
+    padding-right: 100px;
+}
+.list{
+    display: block;
+    padding-bottom: 10px;
+}
+.endone,.endtwo,.endthree{
+    width: 179px;
+    
+}
+.endlogo{
+    padding-bottom: 23px;
+}
+.endbold{
+   padding-bottom: 20px;
+    display: block;
+}
+.logs{
+    display: flex;
+     align-items:center;
+    justify-content:space-between;
+    padding-top:3rem;
+
+    
+}
+.last{
+    color: #CCCCCC;
+    text-align: center;
+    padding-bottom: 3.5rem;
+    padding-top: 4.5rem;
 }
