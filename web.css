@@ -1,127 +1,152 @@
-*{
+:root {
+    --primary-color: #3577F5;
+    --background-color: #06080c;
+    
+
+
+  }
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: "Poppins", serif;
 }
-body{
-    background-color: #06080c;
+
+body {
+    background-color: var(--background-color);
 }
-h1{
+
+h1 {
     font: bold;
     font-size: 58px;
 }
-.a0{
+
+.a0 {
     font-size: 24px;
     color: #A0A0A0;
 }
+
 /* styles for list elements */
-ul{
+ul {
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
     color: #ffffff;
 }
 
-.navbar{
+.navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 4rem 6.25rem;
-    background-color: black;
-} 
+    /* background-color: black; */
 
-.head{
+}
+
+.head {
     display: flex;
     gap: 3rem;
     align-items: center;
 }
 
 
-.login,.signup{
+.login,
+.signup {
     padding: .5rem 2rem;
 }
 
 
-.signup:hover{
-    border: 2px solid #3577F5;
+.signup:hover {
+    border: 2px solid var(--primary-color);
     border-radius: 0.5rem;
     transition: 0.5s ease-in-out;
 }
-.login:hover{
-    border: 2px solid #3577F5;
+
+.login:hover {
+    border: 2px solid var(--primary-color);
     border-radius: 0.5rem;
     transition: 0.5s ease-in-out;
 }
-.herosection{
+
+.herosection {
 
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 1rem;
     margin: 2rem 25rem;
     text-align: center;
-   
+
     color: #FFFFFF;
 }
-.applinks{
+
+.applinks {
     display: flex;
     align-items: center;
     justify-content: center;
-   
+
     gap: 1rem;
- 
+
 }
 
-.playstore,.appstore,.buynow{
+.playstore,
+.appstore,
+.buynow {
     display: flex;
     padding: 0.5rem 1rem;
-    background-color: #3577F5;
+    background-color: var(--primary-color);
     border-radius: 6px;
     align-items: center;
     justify-content: center;
 }
-.appstore img{
+
+.appstore img {
     height: 25px;
     width: 25px;
 }
 
-.scroll{
+.scroll {
     display: block;
     margin: 0 auto;
-    padding-top:5em ;
+    padding-top: 5em;
 }
-.corefeatures img{
+
+.corefeatures img {
     /* height: 100vh; */
-     /* background-color: #990d0d; */
+    /* background-color: #990d0d; */
     padding: 3.5rem;
     text-align: center;
-  }
-.core{
+}
+
+.core {
     display: flex;
     margin: 0 11rem;
-    padding:0  24rem;
+    padding: 0 24rem;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    
+
 
 }
-.bold{
+
+.bold {
     display: block;
-    padding-bottom:0.8rem ;
+    padding-bottom: 0.8rem;
 }
-h2{
+
+h2 {
     font-size: 32px;
-    font:bold;
+    font: bold;
     text-align: center;
     color: #FFFFFF;
     padding: 5rem;
 }
-.coreelements{
+
+.coreelements {
     text-align: center;
     color: #ffffff;
     /* padding: 1rem; */
@@ -129,130 +154,164 @@ h2{
     font: 20px;
 }
 
-.h3heading{
-    font:bold;
+.h3heading {
+    font: bold;
     color: #ffffff;
     padding-bottom: 1rem;
     font-size: 24px;
 }
-.bootinfo{
+
+.bootinfo {
     color: #FFFFFF;
-    padding:1rem 6.25rem;
-    max-width: 50rem;
+    padding: 1rem 6.25rem;
+    /* max-width: 50rem; */
+    width: 50rem;
     font-size: 24px;
-    
+
 }
-.boot{
+
+.boot {
     display: flex;
-    padding:1rem 6.25rem;
+    padding: 1rem 6.25rem;
     justify-content: space-between;
     align-items: center;
 }
-.link{
-    color: #3577F5;
-    padding-top: 2rem; 
+
+.link {
+    color: var(--primary-color);
+    padding-top: 2rem;
     display: block;
 }
-.cources{
+
+.cources {
     margin: 0 11.6rem;
     color: #FFFFFF;
     display: flex;
     justify-content: space-between;
     /* padding:1rem; */
-    
-}
-.blocks{
 
-background-color: #121212;
-align-items: center;
-justify-content: center;
-font-size: 16px;
 }
 
-.blockstext{
+.blocks {
+
+    background-color: #121212;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+.textalign{
+    text-align: center;
+}
+.blockstext {
     font: bold;
     font-size: 22px;
 }
-.price{
+
+.price {
     font-size: 20px;
 }
 
-.viewmore{
-   color: #ffffff;
-   font-size: 18px;
-   font: bold;
-   text-align: center;
-   display: block;
-   max-width: 13rem;
-   padding: 1rem;
-   margin: 5rem auto 0rem;
+.viewmore {
+    color: #ffffff;
+    font-size: 18px;
+    font: bold;
+    text-align: center;
+    display: block;
+    max-width: 13rem;
+    padding: 1rem;
+    margin: 5rem auto 0rem;
 
 }
-.viewmore:hover{
-    border: 2px solid #3577F5;
+
+.viewmore:hover {
+    border: 2px solid var(--primary-color);
     border-radius: 0.5rem;
     transition: 0.5s ease-in-out;
-    
+
 }
 
-.benifits{
+.benifits {
     color: #ffffff;
     margin: 6.25px;
     padding: 0 10rem;
 }
 
-.benone,.bentwo,.benthree{
+.benone,
+.bentwo,
+.benthree {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
-    
-    
-}
-.benwid{
-    max-width: 31rem;
-}
-.more1{
-    color: #ffffff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    margin-left:148px;
-    margin-right: 148px;
-    margin-bottom:  150px;
-    padding: auto;
+
 
 }
-.moreone,.moretwo,.morethree{
-    padding: 1px;
+
+.benwid {
+    max-width: 31rem;
 }
-.more2{
+
+.more-items-container {
     color: #ffffff;
     display: flex;
-    justify-content: space-evenly;
-    margin: auto  156px;
-    gap:0;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    /* margin-left: 148px;
+    margin-right: 148px;
+    margin-bottom: 150px; */
+    /* padding: auto; */
+
 }
-.divbaground{
-background-color: #121212;
+
+
+.more2{
+
+    display: flex;
+    gap: 5rem;
+    flex-wrap: wrap;
+
 }
-.morebolt{
+
+.more-items{
+    display: flex;
+    justify-content: center;
+    gap:1rem;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+}
+
+.more-items img{
+    height: auto;
+    width: 30%;
+}
+
+.divbaground {
+    background-color: #121212;
+}
+
+.morebolt {
+    color: #ffffff;
     font: bold;
     font-size: 36px;
     margin-left: 58px;
     margin-top: 104px;
     margin-right: 156px;
 }
-.morepara{
+
+.morepara {
     font-size: 12px;
     width: 311px;
     margin-left: 58px;
     padding-bottom: 20px;
     padding-top: 5px;
-   
+
 }
-.morediv{
+
+.morediv {
     background-color: #ffffff;
     display: flex;
     align-items: center;
@@ -262,28 +321,32 @@ background-color: #121212;
     border-radius: 6px;
     margin-left: 58px;
 }
-.moretext{
+
+.moretext {
     color: #A0A0A0;
     padding: 16px;
 
 }
-.baground{
-    background-color: #3577F5;
+
+.baground {
+    background-color: var(--primary-color);
     width: 45px;
     height: 45px;
     margin: 6px;
     border-radius: 4px;
 }
-.moreicon{
+
+.moreicon {
     padding: 8.5px;
-    
+
 }
 
-.footer{
-    background-color: #3577F5;
+.footer {
+    background-color: var(--primary-color);
 }
-.end{
-  
+
+.end {
+
     color: #ffffff;
     display: flex;
     justify-content: space-between;
@@ -292,32 +355,330 @@ background-color: #121212;
     /* padding-bottom:77px ; */
     padding-right: 100px;
 }
-.list{
+
+.list {
     display: block;
     padding-bottom: 10px;
 }
-.endone,.endtwo,.endthree{
+
+.endone,
+.endtwo,
+.endthree {
     width: 179px;
-    
+
 }
-.endlogo{
+
+.endlogo {
     padding-bottom: 23px;
 }
-.endbold{
-   padding-bottom: 20px;
+
+.endbold {
+    padding-bottom: 20px;
     display: block;
 }
-.logs{
-    display: flex;
-     align-items:center;
-    justify-content:space-between;
-    padding-top:3rem;
 
-    
+.logs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 3rem;
+
+
 }
-.last{
+
+.last {
     color: #CCCCCC;
     text-align: center;
     padding-bottom: 3.5rem;
     padding-top: 4.5rem;
+}
+
+/* media queries for tablet */
+
+@media screen and (max-width:768px) {
+    h2 {
+        padding: 3rem;
+    }
+
+    .head {
+        flex-direction: column;
+        align-items: left;
+        padding: 0rem;
+        gap: 0;
+        width: 100%;
+    }
+
+    .hover {
+        padding: 0.5rem;
+        width: 100%;
+    }
+
+    .hover:hover {
+        background-color: #787878;
+        border-radius: .3rem;
+        transition: ease-in-out 0.5s;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: start;
+        padding: 1rem;
+
+    }
+
+    .login,
+    .signup {
+        /* padding:0.5rem 0rem; */
+        padding: 0.5rem;
+        width: 100%;
+
+    }
+
+    .signup:hover {
+        border: none;
+        border-radius: 0.5rem;
+        transition: 0.5s ease-in-out;
+        background-color: #787878;
+        width: 100%;
+    }
+
+    .login:hover {
+        border: none;
+        border-radius: 0.5rem;
+        transition: 0.5s ease-in-out;
+        background-color: #787878;
+        width: 100%;
+    }
+
+    .herosection {
+        margin: 2rem;
+        align-items: normal;
+    }
+
+    .core {
+        padding: 1rem;
+        margin: 0;
+    }
+
+    .boot {
+        padding: 1rem;
+        max-width: 50rem;
+    }
+
+    .bootinfo {
+        padding: 0;
+    }
+
+    .cources {
+        display: block;
+    }
+
+    .blocks {
+        text-align: center;
+        padding: 2rem;
+    }
+    
+
+    .viewmore {
+        padding: 1rem;
+        margin: 2rem auto 0;
+    }
+
+    .benifits {
+        padding: 0;
+        margin: 0;
+    }
+
+    .more-items-container {
+        padding: 2rem 9rem;
+        margin: 0;
+        gap: 2rem;
+    }
+
+    .more2 {
+        margin: auto;
+        padding: 1rem;
+        justify-content: space-between;
+    }
+
+    .morebolt {
+        margin-top: 3.5rem;
+    }
+
+    .end {
+        padding: 3rem;
+        padding-bottom: 2rem;
+        gap: 1.5rem;
+        flex-wrap: wrap;
+    }
+
+    .last {
+        padding-bottom: 3rem;
+        padding-top: 0;
+    }
+
+}
+
+
+/* media queries for Mobile  */
+
+@media screen and (max-width :425px) {
+
+
+
+    .head {
+        flex-direction: column;
+        align-items: left;
+        padding: 0rem;
+        gap: 0;
+        width: 100%;
+    }
+
+    .hover {
+        padding: 0.5rem;
+        width: 100%;
+    }
+
+    .hover:hover {
+        background-color: #787878;
+        border-radius: .3rem;
+        transition: ease-in-out 0.5s;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: start;
+        padding: 1rem;
+
+    }
+
+    .login,
+    .signup {
+        /* padding:0.5rem 0rem; */
+        padding: 0.5rem;
+        width: 100%;
+
+    }
+
+    .signup:hover {
+        border: none;
+        border-radius: 0.5rem;
+        transition: 0.5s ease-in-out;
+        background-color: #787878;
+        width: 100%;
+    }
+
+    .login:hover {
+        border: none;
+        border-radius: 0.5rem;
+        transition: 0.5s ease-in-out;
+        background-color: #787878;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .a0 {
+        font-size: 14px;
+    }
+
+    .herosection {
+        margin: 2rem;
+        /* align-items:center; */
+    }
+
+    .applinks{
+        font-size: 10px;
+    }
+
+    h2{
+        font-size: 18px;
+    }
+
+    .core{
+        padding: 0;
+    }
+    .corefeatures{
+        text-align: center; 
+        width: max-content;
+        font-size: 12px;
+        /* padding: 1rem; */
+    }
+    .corefeatures img{
+        padding: 1rem;
+    }
+
+    .coreelements{
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .h3heading{
+
+        font-size: 15px;
+        text-align: center;
+        padding-bottom: 1rem;
+
+    }
+    .bootinfo{
+        font-size: 12px;
+        text-align: center;
+        max-width: 450px;
+        padding:0 4rem;
+    }
+    .boot{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cources{
+        flex-direction: column;
+        margin: 0;
+       
+    }
+    .blockstext {
+    
+        font-size: 19px;
+    }
+    .price{
+        font-size: 17px;
+        padding: 1rem;
+        padding-left: 0;
+    }
+    .textalign{
+        text-align: left;
+        padding-left: 2rem;
+    }
+    .viewmore{
+        font-size: 15px;
+    }
+    .benone,.benthree{
+       flex-direction: column; 
+       text-align: center;
+       font-size: 11px;
+       font-weight: 50;
+    }
+    .bentwo{
+        flex-direction: column-reverse;
+        text-align: center;
+        font-size: 11px;
+        font-weight: 50;
+    }
+    .bold{
+        font-size: 14px;
+    }
+
+    .more1{
+        /* display: block; */
+        /* padding: 10rem; */
+        /* max-width: 425px;
+        flex-wrap: wrap;
+        align-items: center; */
+    }
+    .moreone{
+        padding: 1rem;
+      
+    }
 }
